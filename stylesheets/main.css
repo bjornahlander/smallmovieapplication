@@ -1,0 +1,227 @@
+/************************** Basic page******************************/
+body {
+    background: black url('../images/body_bg.jpg') no-repeat top center fixed;
+}
+
+#page {
+    width: 980px;
+    margin: 0 auto;
+    border: 10px solid grey;
+    padding: 10px;
+    background: white;
+}
+
+#content {
+    margin-top: 40px;
+}
+/************************* Header *******************************/
+header {
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    left: 0px;
+    top: 150px;
+}
+
+.movie {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.information img {
+    margin: 0 3px;
+}
+.information span {
+    margin-right: 25px;
+}
+
+.title {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #cb1919;
+}
+
+.image {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.desc {
+    height: 76px;
+    overflow: hidden;
+    word-wrap: break-word;
+    font-family:"Verdana","HelveticaNeue-Light",
+    "Helvetica Neue Light","HelveticaNeue",
+    "Helvetica","Arial",
+    "Lucida Grande",sans-serif;
+    font-weight:300;
+    font-size:13px;
+    color:#222222;
+}
+
+.rating {
+    position: absolute;
+    display: inline-block;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: #317eaf;
+    left: 0;
+    bottom: 0;
+    line-height: 23px;
+}
+
+.button {
+    padding: 5px;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    background: #58cb5a;
+    border-bottom: 2px solid #45a047;
+    display: inline-block;
+}
+
+.readme {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.information {
+    height: 201px;
+    display:inline-block;
+    width: 60%;
+    position: relative;
+}
+
+/*************************** Nav *****************************/
+#nav {
+    position: relative;
+    margin-top: -4px;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
+    background: #cb1919;
+    padding: 5px;
+
+}
+
+#nav ul {
+    list-style: none;
+    padding-left: 30px;
+}
+#nav li {
+    display: inline;
+    margin-right: 50px;
+}
+/*************************** Table view for movies *****************************/
+
+#table {
+    display: inline-block;
+    width: 630px;
+    margin-right: 30px;
+    vertical-align: top;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    font-family:"Verdana","HelveticaNeue-Light",
+    "Helvetica Neue Light","HelveticaNeue",
+    "Helvetica","Arial",
+    "Lucida Grande",sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #222222;
+}
+
+thead tr {
+    height: 50px;
+    font-size: 20px;
+}
+
+.col-rating {
+    width: 10%;
+}
+
+td, th {
+    padding: 20px 0 20px 15px;
+    line-height: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+tr {
+    border: 1px solid #dadada;
+    text-align: left;
+}
+
+table thead {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    background: #cb1919;
+}
+
+.grey-row {
+    background: #f9f9f9;
+}
+
+table img {
+    margin-right: 4px;
+}
+
+/*********************** Form for adding new movie *************************/
+
+#add-form {
+    display: inline-block;
+    width: 300px;
+}
+
+#add-form .button {
+    margin-left: 50%;
+    height: 50px;
+    width: 50%;
+}
+
+#add-form label {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #cb1919;
+}
+input, textarea, select {
+    border: 1px solid #dadada;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #6b6b6b;
+}
+
+input, textarea, select, option {
+    display: block;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 90%;
+}
+
+textarea {
+    height: 90px;
+}
+
+select {
+    height: 60px;
+    width: 50%;
+}
+/********************************************************/
